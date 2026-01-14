@@ -1,14 +1,22 @@
-const http = require('http');
+const express = require('express');
+const path = require('path');
 
-const HOSTNAME = '127.0.0.1';
+const app = express();
 const PORT = 3000;
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.end('Hello World! Velcome to Vefforritun 2.');
+app.set('views', path.join(__dirname, 'src', 'views'));
+app.set('view engine', 'ejs');
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+    res.render('index', { title: 'Home Page' });
 });
 
-server.listen(PORT, HOSTNAME, () => {
-  console.log(`Server running at http://${HOSTNAME}:${PORT}/`);
+app.use((req, res) => {
+    res.status(404).send('Page Not Found (404)');
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
