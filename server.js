@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.render('index', { title: 'Home Page' });
 });
 
+app.get('/about', (req, res) => {
+    res.render('about', { title: 'About Us' });
+});
+
 app.use((req, res) => {
     res.status(404).send('Page Not Found (404)');
 });
