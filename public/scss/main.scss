@@ -1,0 +1,18 @@
+@use 'variables' as *;
+@use 'base/reset';
+@use 'components/card';
+@use 'components/header';
+@use 'components/footer';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
