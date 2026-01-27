@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<main>
+    <section class="details">
+        <img src="<%= animal.image %>" alt="<%= animal.name %>" class="animal-image">
+        <h2><%= animal.name %> (<%= animal.scientific_name %>)</h2>
+        <p><%= animal.description %></p>
+        <a href="/animals">Go back</a>
+    </section>
+</main>
+<%- include('partials/footer') %>

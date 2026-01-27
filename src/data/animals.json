@@ -1,0 +1,30 @@
+[
+    {
+        "id": "panthera_tigris",
+        "name": "Tiger",
+        "scientific_name": "Panthera tigris",
+        "description": "The tiger is the largest species among the Felidae and classified in the genus Panthera.",
+        "image": "/images/tiger.jpg"
+    },
+    {
+        "id": "elephas_maximus",
+        "name": "Asian Elephant",
+        "scientific_name": "Elephas maximus",
+        "description": "The Asian elephant is the largest living land animal in Asia and is known for its intelligence and strong social bonds.",
+        "image": "/images/asian_elephant.jpg"
+    },
+    {
+        "id": "felis_catus",
+        "name": "Domestic Cat",
+        "scientific_name": "Felis catus",
+        "description": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets.",
+        "image": "/images/domestic_cat.jpg"
+    },
+    {
+        "id": "pongo_pygmaeus",
+        "name": "Bornean Orangutan",
+        "scientific_name": "Pongo pygmaeus",
+        "description": "The Bornean orangutan is a species of orangutan native to the island of Borneo. They are known for their intelligence and arboreal lifestyle.",
+        "image": "/images/bornean_orangutan.jpg"
+    }
+]

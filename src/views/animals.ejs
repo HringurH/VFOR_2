@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<main>
+    <div class="grid">
+        <% animals.forEach(animal => { %>
+            <div class="card">
+                <img src="<%= animal.image %>" alt="<%= animal.name %>" class="animal-image">
+                <h2><%= animal.name %></h2>
+                <p><%= animal.scientific_name %></p>
+                <a href="/animals/<%= animal.id %>">View Details</a>
+            </div>
+        <% }) %>
+    </div>
+</main>
+<%- include('partials/footer') %>

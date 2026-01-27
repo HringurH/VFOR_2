@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<main>
+    <section class="details">
+        <img src="<%= movie.image %>" alt="<%= movie.title %> Poster" class="movie-poster">
+        <h2><%= movie.title %> (<%= movie.year %>)</h2>
+        <p><%= movie.description %></p>
+        <a href="/movies">Go back</a>
+    </section>
+</main>
+<%- include('partials/footer') %>
