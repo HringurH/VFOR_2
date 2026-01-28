@@ -36,6 +36,14 @@ img, picture, video, canvas, svg {
   font-size: 1em;
   color: black;
 }
+.card a {
+  color: #00796b;
+  text-decoration: none;
+}
+.card a:hover {
+  color: rgb(0, 44.5, 39.3512396694);
+  text-decoration: underline;
+}
 
 header {
   padding: 1.5rem 1.5rem 0.75rem;
@@ -77,6 +85,37 @@ footer {
   width: 100%;
   bottom: 0;
   border-top: 1px solid rgb(180.0833333333, 235.6666666667, 242.9166666667);
+}
+
+.details {
+  background-color: rgb(242.25, 242.25, 242.25);
+  border: 1px solid rgb(180.0833333333, 235.6666666667, 242.9166666667);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 600px;
+}
+.details img {
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 100%;
+}
+.details h2 {
+  font-size: 1.5em;
+  color: #004d40;
+  margin-bottom: 8px;
+}
+.details p {
+  font-size: 1em;
+  color: black;
+}
+.details a {
+  color: #00796b;
+  text-decoration: none;
+}
+.details a:hover {
+  color: rgb(0, 44.5, 39.3512396694);
+  text-decoration: underline;
 }
 
 body {

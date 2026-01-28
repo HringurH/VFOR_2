@@ -1,25 +1,26 @@
 @use "../variables" as *;
 
-.card {
-    background-color: darken($background-color, 3%);
+.details {
+    background-color: darken($background-color, 5%);
     border: 1px solid darken($primary-color, 10%);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 16px;
-    margin: 16px 0;
-    transition: box-shadow 0.3s ease;
+    margin: 16px auto;
+    max-width: 600px;
 
-    &:hover {
-        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    img {
+        border-radius: 4px;
+        margin-top: 10px;
+        width: 100%;
     }
 
-    .card-title {
+    h2 {
         font-size: 1.5em;
         color: $text-color;
         margin-bottom: 8px;
     }
 
-    .card-content {
+    p {
         font-size: 1em;
         color: darken($text-color, 20%);
     }
