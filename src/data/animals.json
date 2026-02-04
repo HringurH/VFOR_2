@@ -1,30 +1,79 @@
 [
     {
-        "id": "panthera_tigris",
+        "id": "tiger",
         "name": "Tiger",
         "scientific_name": "Panthera tigris",
         "description": "The tiger is the largest species among the Felidae and classified in the genus Panthera.",
         "image": "/images/tiger.jpg"
     },
     {
-        "id": "elephas_maximus",
+        "id": "asian_elephant",
         "name": "Asian Elephant",
         "scientific_name": "Elephas maximus",
         "description": "The Asian elephant is the largest living land animal in Asia and is known for its intelligence and strong social bonds.",
         "image": "/images/asian_elephant.jpg"
     },
     {
-        "id": "felis_catus",
+        "id": "domestic_cat",
         "name": "Domestic Cat",
         "scientific_name": "Felis catus",
         "description": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets.",
         "image": "/images/domestic_cat.jpg"
     },
     {
-        "id": "pongo_pygmaeus",
+        "id": "bornean_orangutan",
         "name": "Bornean Orangutan",
         "scientific_name": "Pongo pygmaeus",
         "description": "The Bornean orangutan is a species of orangutan native to the island of Borneo. They are known for their intelligence and arboreal lifestyle.",
         "image": "/images/bornean_orangutan.jpg"
+    },
+    {
+        "id": "gray_wolf",
+        "name": "Gray Wolf",
+        "scientific_name": "Canis lupus",
+        "description": "The gray wolf is a large canine native to Eurasia and North America. It is known for its complex social structure and pack behavior.",
+        "image": "/images/gray_wolf.jpg"
+    },
+    {
+        "id": "giraffe",
+        "name": "Giraffe",
+        "scientific_name": "Giraffa camelopardalis",
+        "description": "The giraffe is the tallest living terrestrial animal and the largest ruminant. They are known for their long necks and distinctive coat patterns.",
+        "image": "/images/giraffe.jpg"
+    },
+    {
+        "id": "brown_bear",
+        "name": "Brown Bear",
+        "scientific_name": "Ursus arctos",
+        "description": "The brown bear is a large bear species found across Eurasia and North America. They are omnivorous and have a varied diet.",
+        "image": "/images/brown_bear.jpg"
+    },
+    {
+        "id": "lion",
+        "name": "Lion",
+        "scientific_name": "Panthera leo",
+        "description": "The lion is a species in the family Felidae and a member of the genus Panthera. They are known for their strength and social behavior.",
+        "image": "/images/lion.jpg"
+    },
+    {
+        "id": "plains_zebra",
+        "name": "Plains Zebra",
+        "scientific_name": "Equus quagga",
+        "description": "The plains zebra is the most common and geographically widespread species of zebra. They are known for their distinctive black-and-white striped coats.",
+        "image": "/images/plains_zebra.jpg"
+    },
+    {
+        "id": "red_panda",
+        "name": "Red Panda",
+        "scientific_name": "Ailurus fulgens",
+        "description": "The red panda is a small mammal native to the eastern Himalayas and southwestern China. They are known for their reddish-brown fur and bushy tails.",
+        "image": "/images/red_panda.jpg"
+    },
+    {
+        "id": "human",
+        "name": "Human",
+        "scientific_name": "Homo sapiens",
+        "description": "Humans are a species of primate known for their advanced cognitive abilities, use of language, and creation of complex societies.",
+        "image": "/images/human.jpg"
     }
 ]
