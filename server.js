@@ -38,7 +38,7 @@ app.get('/movies/:id', (req, res) => {
     const movie = movies.find(m => m.id === req.params.id);
 
     if (!movie) {
-        return res.status(404).send('Movie Not Found');
+        return res.status(404).render('404', { title: 'Movie Not Found' });
     }
 
     res.render('movie-details', { title: movie.title, movie });
@@ -54,14 +54,14 @@ app.get('/animals/:id', (req, res) => {
     const animal = animals.find(a => a.id === req.params.id);
 
     if (!animal) {
-        return res.status(404).send('Animal Not Found');
+        return res.status(404).render('404', { title: 'Animal Not Found' });
     }
 
     res.render('animal-details', { title: animal.name, animal });
 });
 
 app.use((req, res) => {
-    res.status(404).send('Page Not Found (404)');
+    res.status(404).render('404', { title: 'Page Not Found' });
 });
 
 app.listen(PORT, () => {
